@@ -20,7 +20,7 @@ Usage:
 
 .. code-block:: bash
 
-    $ logviewer -f /path/to/file.lo --port 8080
+    $ logviewer -f /path/to/file.log --port 8080
     $ tail -f /path/to/file.log | logviewer
 
 Command line options are:
