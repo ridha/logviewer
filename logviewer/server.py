@@ -23,7 +23,6 @@ async def websocket_handler(request):
 
     async with AsyncTail(filepath=request.app['filepath']) as atail:
         async for line in atail:
-            print(line)
             resp.send_str(json.dumps({
                 'action': 'sent',
                 'text': line

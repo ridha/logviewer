@@ -14,7 +14,7 @@ requirements = [
 
 setup(
     name='logviewer',
-    version='1.0.1',
+    version='1.0.2',
     description='Log monitoring in your browser',
     author='Abdul Kader Maliyakkal',
     author_email='akm.mail@gmail.com',

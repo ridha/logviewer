@@ -14,7 +14,6 @@ class AsyncTail:
         return self
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
-        print(exc_type)
         self.file_obj.close()
 
     async def __aiter__(self):
