@@ -2,13 +2,25 @@
 Logviewer
 =========
 
-Logviewer is a realtime log monitoring in browser.
+Logviewer allows you to tail files to the web for sharing with other people.
+
+Requirements:
+
+- Python >= 3.6
+- aiohttp
+- aiohttp_jinja2
+
+Install Logviewer:
+
+.. code-block:: bash
+
+    $ pip3 install logviewer
 
 Usage:
 
 .. code-block:: bash
 
-    $ logviewer -f /path/to/file.lo --port 9090
+    $ logviewer -f /path/to/file.lo --port 8080
     $ tail -f /path/to/file.log | logviewer
 
 Command line options are:
